@@ -1,0 +1,6 @@
+Schemat CC-CV converter:
++ dzielnik napięcia na wejście sterownika
++ wzmacniacz operacyjny do pomiarów prądu
+
+Elektrolit przy mosfecie o niskim RMS, mosfety >4A, sterowanie bateriom mosfetem do masy, sterownik logic-level, normalnie można podłączyć dzielnik do akumulatorów w celu pomiaru napięcie po dzielniku
+50 kHz
