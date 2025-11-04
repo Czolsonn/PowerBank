@@ -12,6 +12,9 @@ Elementy widoczne na schemacie
 - Przetwornica do sterownika (IMZ Przetwornica MT3608 2A Step-Up DC/DC) gotowa płytka
 - 100 kHz sterowanie PWM (tak dobrany jest dławik i kondensatory co widać na symulacji)
 
+BMS: Moduł BMS PCM PCB ładowania i ochrony ogniw Li-ion 2S 8,4V 5A - 18650 - https://allegro.pl/oferta/modul-bms-pcm-pcb-ladowania-i-ochrony-ogniw-li-ion-2s-8-4v-5a-18650-17518639260?reco_id=dac83c1c-b9b5-11f0-ab59-de1463ad46a0&sid=1147bbb04b955b96a226cab2e664258d9124ef0862320b2d7366fdd6604cf017
+
+
 Do zrobienia:
 - Dołączenie na schemacie akumulatora wraz z BMS
 - Cześć masy odłączana poprzez tranzystor odpinanie Ładowania od układu na nóżce minusa baterii
