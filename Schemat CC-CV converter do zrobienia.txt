@@ -4,3 +4,14 @@ Schemat CC-CV converter:
 
 Elektrolit przy mosfecie o niskim RMS, mosfety >4A, sterowanie bateriom mosfetem do masy, sterownik logic-level, normalnie można podłączyć dzielnik do akumulatorów w celu pomiaru napięcie po dzielniku
 50 kHz
+
+
+04.11
+Elementy widoczne na schemacie 
+- 150uF kondensatory to elektrolity ważny LOW RMS!
+- Przetwornica do sterownika (IMZ Przetwornica MT3608 2A Step-Up DC/DC) gotowa płytka
+- 100 kHz sterowanie PWM (tak dobrany jest dławik i kondensatory co widać na symulacji)
+
+Do zrobienia:
+- Dołączenie na schemacie akumulatora wraz z BMS
+- Cześć masy odłączana poprzez tranzystor odpinanie Ładowania od układu na nóżce minusa baterii
