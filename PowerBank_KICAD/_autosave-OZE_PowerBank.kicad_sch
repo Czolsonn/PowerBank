@@ -13849,7 +13849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LIB_SLW-1276864-4A-D:SLW12768644AD"
 			(at 96.52 294.64 0)
 			(effects
 				(font

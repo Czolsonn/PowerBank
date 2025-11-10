@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS25810RVCR")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/TPS25810RVCR/TPS25810RVCR/KiCad")(options "")(descr ""))
+  (lib (name "TPS2514ADBVT")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/TPS2514ADBVT/TPS2514ADBVT/KiCad")(options "")(descr ""))
+  (lib (name "kicad-footprints")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/kicad-footprints")(options "")(descr ""))
+  (lib (name "0ZAF0016FF28")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/0ZAF0016FF28")(options "")(descr ""))
+  (lib (name "DCJ200-10-A-XX-K_REVA")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/DCJ200-10-A-XX-K_REVA")(options "")(descr ""))
+  (lib (name "LIB_SLW-1276864-4A-D")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/LIB_SLW-1276864-4A-D/SLW-1276864-4A-D/KiCad")(options "")(descr ""))
+)
