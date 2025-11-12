@@ -13,7 +13,7 @@
 		(comment 2 "Hubert Polus")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Current:INA180A2"
+		(symbol "Amplifier_Current:INA180A1"
 			(pin_names
 				(offset 0.127)
 			)
@@ -29,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "INA180A2"
+			(property "Value" "INA180A1"
 				(at 3.81 -2.54 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
+			(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INA180A2_0_1"
+			(symbol "INA180A1_0_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "INA180A2_1_1"
+			(symbol "INA180A1_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -8509,6 +8509,16 @@
 		)
 		(uuid "316bbe23-2220-43f8-8f0d-2e3a1163c088")
 	)
+	(text "1% Rezystor"
+		(exclude_from_sim no)
+		(at 452.882 304.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "319cd399-daed-43bc-a3ee-ef19ae52a8e3")
+	)
 	(text "Uwej = 16 V Iwej = 0.5A\n"
 		(exclude_from_sim no)
 		(at 277.622 41.402 0)
@@ -8581,7 +8591,7 @@
 	)
 	(text "Vadc = Vin * R2/(R2+R1) = 8,4*10/(27+10) = 2,189 V "
 		(exclude_from_sim no)
-		(at 509.27 50.038 0)
+		(at 502.92 50.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8691,7 +8701,7 @@
 	)
 	(text "8.4V"
 		(exclude_from_sim no)
-		(at 495.046 40.386 0)
+		(at 488.696 40.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8952,12 +8962,6 @@
 		(uuid "4f583fc4-2888-4243-ac10-f8f6c8804fb2")
 	)
 	(junction
-		(at 443.23 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50ed020c-1b22-4e11-bc24-2be8139a09df")
-	)
-	(junction
 		(at 73.66 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8980,6 +8984,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b5a9873-3f5f-4ddf-83fb-548dca641cb1")
+	)
+	(junction
+		(at 443.23 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bdb2b3c-8405-4508-b5fe-de7e20e26d71")
 	)
 	(junction
 		(at 605.79 53.34)
@@ -11025,16 +11035,6 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 45.72) (xy 492.76 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76883ba7-5e5c-4b81-8ee5-e4998d82abe9")
-	)
-	(wire
-		(pts
 			(xy 139.7 260.35) (xy 139.7 271.78)
 		)
 		(stroke
@@ -12032,6 +12032,16 @@
 			(type default)
 		)
 		(uuid "c9f0425a-8b0a-4ea4-9238-fcf395be97f6")
+	)
+	(wire
+		(pts
+			(xy 469.9 45.72) (xy 486.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca35803f-d105-4e27-9dea-e7494aefd7fa")
 	)
 	(wire
 		(pts
@@ -13401,7 +13411,7 @@
 	)
 	(global_label "P+"
 		(shape output)
-		(at 492.76 45.72 0)
+		(at 486.41 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13411,7 +13421,7 @@
 		)
 		(uuid "83726472-e818-40fd-bd37-de4dbd118f3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 498.5876 45.72 0)
+			(at 492.2376 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15601,84 +15611,6 @@
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA180A2")
-		(at 450.85 63.5 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fe8797f-e663-4050-8743-fce4623b2134")
-		(property "Reference" "U5"
-			(at 439.42 54.5398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA180A2"
-			(at 439.42 57.0798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 449.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 447.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"
-			(at 450.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1b0669cd-bf73-4cee-8af4-466f9ec472bd")
-		)
-		(pin "2"
-			(uuid "ebf5c5da-67ef-40d6-8a94-6ae4ae001f2a")
-		)
-		(pin "4"
-			(uuid "9cca905b-ac8e-4f25-aa12-b3a532f65cbb")
-		)
-		(pin "5"
-			(uuid "531ce0d6-e035-47cc-bbf8-c3d595da12b7")
-		)
-		(pin "1"
-			(uuid "6f2802a5-4aea-4190-88f2-34e3316b35df")
-		)
-		(instances
-			(project "OZE_PowerBank"
-				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -24803,6 +24735,83 @@
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Current:INA180A1")
+		(at 450.85 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e80868-30d3-4ed2-8f3d-fe692284650c")
+		(property "Reference" "U4"
+			(at 462.28 54.5398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA180A1"
+			(at 462.28 57.0798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 452.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
+			(at 454.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"
+			(at 450.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50b4503b-6538-4da6-b618-544a7c0b6000")
+		)
+		(pin "3"
+			(uuid "c2410f15-4bce-424d-be69-afabc37813ea")
+		)
+		(pin "4"
+			(uuid "0be75e17-38f4-448f-bb3e-c03c12f847e2")
+		)
+		(pin "5"
+			(uuid "9a57223f-53ce-4f2d-ac16-1ebcabdc55b2")
+		)
+		(pin "2"
+			(uuid "a6ddb5a0-fb78-45d0-9736-1ab9c34965d7")
+		)
+		(instances
+			(project ""
+				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
+					(reference "U4")
 					(unit 1)
 				)
 			)
