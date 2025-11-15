@@ -8650,7 +8650,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5f6b844a-dff1-4eed-81ac-6328c5e7accc")
-		(at 147.95 65.65)
+		(at 148.5 65.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -22682,7 +22682,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "cff62ef2-bb49-4525-946d-a388cb0550ec")
-		(at 143.35 74.65 180)
+		(at 144.5 74.65 180)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3"
