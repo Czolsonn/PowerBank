@@ -13,6 +13,198 @@
 		(comment 2 "Hubert Polus")
 	)
 	(lib_symbols
+		(symbol "865060657011:865060657011"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "865060657011"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPAE1030X1050N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/865060657011.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik 150uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLL Series 5000h 10.5 (Dia.) x 9.85mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-865060657011"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865060657011?qs=0KOYDY2FL2%252B77rsuEWbKMQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "865060657011"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "865060657011_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Current:INA180A2"
 			(pin_names
 				(offset 0.127)
@@ -2411,167 +2603,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -4641,6 +4672,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "IRLML6402TRPBF:IRLML6402TRPBF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IRLML6402TRPBF"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P237X112-3N"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET MOSFT P-Ch -3.7A 65mOhm 8nC Log Lvl"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.12"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "942-IRLML6402TRPBF"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML6402TRPBF?qs=9%252BKlkBgLFf0HuZuONx2Ewg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IRLML6402TRPBF"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML6402TRPBF_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6087,322 +6288,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8542,6 +8427,16 @@
 		)
 		(uuid efa2e687-6a4a-4a9a-89f6-a09be011dfd9)
 	)
+	(text "STEP UP\n"
+		(exclude_from_sim no)
+		(at 654.812 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04f663a9-b354-429a-a72c-5700affc071f")
+	)
 	(text "zmień na uniwerslane zielone złącze\n"
 		(exclude_from_sim no)
 		(at 84.328 56.134 0)
@@ -8621,6 +8516,16 @@
 			)
 		)
 		(uuid "509ab88f-db36-462d-a8c3-31734745da90")
+	)
+	(text "STEP DOWN\n"
+		(exclude_from_sim no)
+		(at 655.066 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "583c00d5-c1ef-4741-be3d-05e168c5eaa4")
 	)
 	(text "DCP - dedicated charging point (bez hosta) do 2A"
 		(exclude_from_sim no)
@@ -9011,6 +8916,18 @@
 		(uuid "1e82ccd7-b75a-4860-91cc-242218780468")
 	)
 	(junction
+		(at 358.14 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f25b1af-842c-414b-8e30-1e97b842bb8e")
+	)
+	(junction
+		(at 411.48 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219ccb7d-f290-424b-92fb-7af07c8ee791")
+	)
+	(junction
 		(at 605.79 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9033,6 +8950,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24c334ce-6976-45b9-b6b6-4e68995ffcf0")
+	)
+	(junction
+		(at 85.09 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28241c8f-ccf0-44bc-8fe4-f972d11639ad")
 	)
 	(junction
 		(at 128.27 260.35)
@@ -9059,10 +8982,10 @@
 		(uuid "341350c5-041e-4094-b4ed-42b96c2a93ff")
 	)
 	(junction
-		(at 411.48 45.72)
+		(at 180.34 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37e1674f-f1dd-4d72-a3d5-821aa7b4faf0")
+		(uuid "3750cf97-79d9-455f-9801-48a76d64dac6")
 	)
 	(junction
 		(at 518.16 248.92)
@@ -9209,12 +9132,6 @@
 		(uuid "611169ac-80e6-482d-ad78-a07bfff8daa6")
 	)
 	(junction
-		(at 180.34 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "614719ac-9ba6-4ba9-aa3b-66fc5b806a95")
-	)
-	(junction
 		(at 121.92 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9299,12 +9216,6 @@
 		(uuid "85badcb0-95ea-48a3-8bfe-ebc48bc68faa")
 	)
 	(junction
-		(at 85.09 322.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86db204a-3292-4d79-b2db-b15237d43254")
-	)
-	(junction
 		(at 546.1 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9347,12 +9258,6 @@
 		(uuid "9c9ad3d9-f2b6-4d49-8ac9-29cfc7fcc17e")
 	)
 	(junction
-		(at 360.68 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d04aa7a-acb3-433c-9474-74a45e7512f1")
-	)
-	(junction
 		(at 521.97 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9363,6 +9268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a32bfde7-83b8-49e1-93b4-396086c70cc6")
+	)
+	(junction
+		(at 85.09 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3310c31-795f-4d30-b2ad-3aac3b207fe2")
 	)
 	(junction
 		(at 434.34 45.72)
@@ -9401,6 +9312,12 @@
 		(uuid "bd101881-84b0-4345-81db-e60d3cfa9c95")
 	)
 	(junction
+		(at 208.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed9853f-8a4b-4d29-81e1-d0d54f743725")
+	)
+	(junction
 		(at 521.97 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9411,12 +9328,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c89f1801-dab7-4940-8025-13424ed5b71e")
-	)
-	(junction
-		(at 85.09 312.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8a395aa-e283-4fa1-97a4-f1be92e9e704")
 	)
 	(junction
 		(at 204.47 262.89)
@@ -9453,18 +9364,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0d88991-ff04-4797-8ed3-33aea8c506f5")
-	)
-	(junction
-		(at 208.28 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d157de5f-1aca-44ca-bb6b-c4c482494c2c")
-	)
-	(junction
-		(at 422.91 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3eae4c6-6237-4bea-a97a-a6184c8ad7c3")
 	)
 	(junction
 		(at 433.07 226.06)
@@ -9574,6 +9473,12 @@
 		(color 0 0 0 0)
 		(uuid "ff6c989f-3e4b-4a2e-ac54-8e30357afeba")
 	)
+	(junction
+		(at 417.83 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8a00b8-39b3-4403-98c7-ae3464116417")
+	)
 	(no_connect
 		(at 127 322.58)
 		(uuid "08de361e-808a-4699-8753-ece42a8dec55")
@@ -9591,8 +9496,20 @@
 		(uuid "4c2e2917-008e-4603-8e1c-2fbc5a2eb269")
 	)
 	(no_connect
+		(at 297.18 339.09)
+		(uuid "62c3589d-ee44-41ae-a1ab-f80cb11ffccc")
+	)
+	(no_connect
+		(at 297.18 341.63)
+		(uuid "6f9ad627-eb63-4534-b401-ee152120ac81")
+	)
+	(no_connect
 		(at 481.33 185.42)
 		(uuid "8b382c8c-81eb-4a00-b350-086adaa7aeb0")
+	)
+	(no_connect
+		(at 297.18 344.17)
+		(uuid "8cda816d-d9ec-4f84-804d-501a7712fe5f")
 	)
 	(no_connect
 		(at 127 330.2)
@@ -10158,6 +10075,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 59.69) (xy 358.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21222a1e-18b3-49cc-bee3-238e303f8b00")
+	)
+	(wire
+		(pts
 			(xy 125.73 201.93) (xy 134.62 201.93)
 		)
 		(stroke
@@ -10165,16 +10092,6 @@
 			(type default)
 		)
 		(uuid "23aefa48-a6ef-4f56-968a-8b2e2dc2d453")
-	)
-	(wire
-		(pts
-			(xy 208.28 73.66) (xy 208.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c2d187-ee23-4057-822f-4b6582fb389b")
 	)
 	(wire
 		(pts
@@ -10608,6 +10525,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 45.72) (xy 434.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37562b0a-506d-4ddd-a8ef-0a10f64f9be6")
+	)
+	(wire
+		(pts
 			(xy 139.7 252.73) (xy 139.7 260.35)
 		)
 		(stroke
@@ -10645,6 +10572,16 @@
 			(type default)
 		)
 		(uuid "3ae08a7c-c0a0-4e0e-9499-23db46a7b537")
+	)
+	(wire
+		(pts
+			(xy 207.01 63.5) (xy 214.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9974f7-1612-4b96-a77d-673166d7b213")
 	)
 	(wire
 		(pts
@@ -10808,16 +10745,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 320.04) (xy 85.09 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46747f50-fcea-45b6-8adc-cddd78ecdf6e")
-	)
-	(wire
-		(pts
 			(xy 97.79 359.41) (xy 97.79 361.95)
 		)
 		(stroke
@@ -10965,6 +10892,16 @@
 			(type default)
 		)
 		(uuid "4f28e468-ba56-4a8f-a180-beac9661c35f")
+	)
+	(wire
+		(pts
+			(xy 358.14 45.72) (xy 373.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7dae89-1369-40d8-852b-23ff6d3090ee")
 	)
 	(wire
 		(pts
@@ -11138,6 +11075,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6a000e-fd7f-4910-83aa-280a93271d14")
+	)
+	(wire
+		(pts
 			(xy 421.64 232.41) (xy 421.64 229.87)
 		)
 		(stroke
@@ -11195,6 +11142,16 @@
 			(type default)
 		)
 		(uuid "603992f6-d0d3-4cff-8903-afdf90dd59fc")
+	)
+	(wire
+		(pts
+			(xy 85.09 312.42) (xy 85.09 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605b7a71-c0c1-44dc-91c1-859972a7df63")
 	)
 	(wire
 		(pts
@@ -11408,6 +11365,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd154b6-0b28-4e44-805c-fbbee18892b9")
+	)
+	(wire
+		(pts
 			(xy 609.6 87.63) (xy 609.6 92.71)
 		)
 		(stroke
@@ -11465,16 +11432,6 @@
 			(type default)
 		)
 		(uuid "6d7e0e21-6a97-4ed7-8dfe-2a694bbf7f67")
-	)
-	(wire
-		(pts
-			(xy 411.48 45.72) (xy 422.91 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e89e80f-cf6b-4e6c-a989-59ae2389913d")
 	)
 	(wire
 		(pts
@@ -11578,6 +11535,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b18fee-cbcb-446b-aca3-b1cfd9a25b64")
+	)
+	(wire
+		(pts
 			(xy 643.89 54.61) (xy 643.89 57.15)
 		)
 		(stroke
@@ -11635,6 +11602,16 @@
 			(type default)
 		)
 		(uuid "7d04e397-4faa-4845-bef9-78de505a6cdc")
+	)
+	(wire
+		(pts
+			(xy 411.48 45.72) (xy 417.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2b3329-bcca-4c4d-8236-346202cd9d2b")
 	)
 	(wire
 		(pts
@@ -11735,16 +11712,6 @@
 			(type default)
 		)
 		(uuid "83531bb2-5251-4b73-b4c8-876dd9032761")
-	)
-	(wire
-		(pts
-			(xy 360.68 45.72) (xy 373.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c022db-6506-4ac1-bb2d-f217766b63c8")
 	)
 	(wire
 		(pts
@@ -11878,7 +11845,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 72.39) (xy 208.28 71.12)
+			(xy 208.28 66.04) (xy 208.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -11895,16 +11862,6 @@
 			(type default)
 		)
 		(uuid "8d965dfe-9e95-4265-bd1b-84e57d5c54aa")
-	)
-	(wire
-		(pts
-			(xy 85.09 312.42) (xy 85.09 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df35205-dea6-49a5-a012-65d4a50ff1fc")
 	)
 	(wire
 		(pts
@@ -12235,6 +12192,16 @@
 			(type default)
 		)
 		(uuid "a558248f-405e-4022-8928-0fd878fed9d0")
+	)
+	(wire
+		(pts
+			(xy 85.09 320.04) (xy 85.09 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a671dbbd-b9c2-4621-a793-bd95c346bdcd")
 	)
 	(wire
 		(pts
@@ -12588,6 +12555,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 82.55) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c200cea4-786b-4e3a-8387-2b4f30180d8c")
+	)
+	(wire
+		(pts
 			(xy 407.67 67.31) (xy 407.67 80.01)
 		)
 		(stroke
@@ -12898,16 +12875,6 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 45.72) (xy 434.34 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21c7c9a-733c-4ed7-b204-9e011f845e99")
-	)
-	(wire
-		(pts
 			(xy 360.68 250.19) (xy 369.57 250.19)
 		)
 		(stroke
@@ -13118,6 +13085,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 72.39) (xy 208.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc922486-7ee9-42e1-8f52-f61fc3b9c2b5")
+	)
+	(wire
+		(pts
 			(xy 149.86 269.24) (xy 149.86 274.32)
 		)
 		(stroke
@@ -13238,16 +13215,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 63.5) (xy 214.63 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c338ff-34de-4c55-bbc3-86b6470c29f7")
-	)
-	(wire
-		(pts
 			(xy 650.24 118.11) (xy 643.89 118.11)
 		)
 		(stroke
@@ -13308,7 +13275,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 45.72) (xy 360.68 45.72)
+			(xy 295.91 45.72) (xy 358.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -13345,16 +13312,6 @@
 			(type default)
 		)
 		(uuid "e87af967-7b14-4b47-bc69-32d962db24c9")
-	)
-	(wire
-		(pts
-			(xy 180.34 63.5) (xy 203.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88f5113-d4ab-4930-8f6a-627568c97886")
 	)
 	(wire
 		(pts
@@ -13445,6 +13402,16 @@
 			(type default)
 		)
 		(uuid "f42ecb43-cd0e-414e-bcc5-15008d302816")
+	)
+	(wire
+		(pts
+			(xy 185.42 63.5) (xy 185.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50adaf4-a340-4d2e-9d59-67d5a092e8ea")
 	)
 	(wire
 		(pts
@@ -13666,6 +13633,16 @@
 		)
 		(uuid "70571a19-62c6-4ed0-a3ad-d72daa2caac1")
 	)
+	(label "Gate"
+		(at 208.28 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7939d8a9-f98f-464b-ad9f-ae54708a9718")
+	)
 	(label "D+"
 		(at 530.86 212.09 0)
 		(effects
@@ -13685,6 +13662,16 @@
 			(justify left bottom)
 		)
 		(uuid "83ae9350-7b6b-4182-8dcd-abb6444a620d")
+	)
+	(label "VBUS"
+		(at 453.39 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8505efb0-cacb-49e4-a2e8-3fa3d7396226")
 	)
 	(label "SWDIO"
 		(at 179.07 314.96 0)
@@ -13715,6 +13702,16 @@
 			(justify left bottom)
 		)
 		(uuid "a8348ebd-f278-421f-a2d0-5086c618266f")
+	)
+	(label "DREN"
+		(at 184.15 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abcea17a-7989-4faa-b445-b8eec8c23bc3")
 	)
 	(label "D+"
 		(at 478.79 180.34 0)
@@ -15115,7 +15112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 198.12 325.12 0)
 			(effects
 				(font
@@ -15242,7 +15239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "068be057-1ee5-471a-a95b-630f37a6f7a5")
-		(property "Reference" "C35"
+		(property "Reference" "C15"
 			(at 172.72 264.1662 0)
 			(effects
 				(font
@@ -15260,7 +15257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 170.18 265.43 0)
 			(effects
 				(font
@@ -15296,7 +15293,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C35")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -15312,7 +15309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "083c3941-4327-4c70-b739-c120b0974221")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR062"
 			(at 566.42 231.14 0)
 			(effects
 				(font
@@ -15362,7 +15359,73 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR052")
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 411.48 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0f72ea-153d-444d-8e1a-989dd3e41729")
+		(property "Reference" "#PWR047"
+			(at 411.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 411.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 411.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd22da52-de47-4c86-a674-f7a54adb93d7")
+		)
+		(instances
+			(project "OZE_PowerBank"
+				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15378,7 +15441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a5d7a50-99d8-401d-899f-9574c8e6f302")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR053"
 			(at 452.12 285.75 0)
 			(effects
 				(font
@@ -15428,7 +15491,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR019")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15443,7 +15506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a963e7f-9add-4024-befd-915d493134e1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 83.82 80.01 0)
 			(effects
 				(font
@@ -15494,7 +15557,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15510,7 +15573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad9c53b-ad8a-4bac-a44a-67406a1ed5b5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 149.86 370.84 0)
 			(effects
 				(font
@@ -15560,7 +15623,7 @@
 		(instances
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15642,7 +15705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e242917-ff32-4b64-8f34-8d8e134b7d4b")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 421.64 77.7874 90)
 			(effects
 				(font
@@ -15705,7 +15768,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -15721,7 +15784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3bdd6e-97f9-4c58-b1d8-e40fb866897e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 596.9 71.12 0)
 			(effects
 				(font
@@ -15771,7 +15834,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -15787,7 +15850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5303f7-9200-4656-b891-434e8516d6e0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 595.63 87.63 0)
 			(effects
 				(font
@@ -15837,7 +15900,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -15853,7 +15916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f196b86-6c0b-4f89-8155-40f7a6de1cda")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 161.29 276.86 0)
 			(effects
 				(font
@@ -15904,7 +15967,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15919,7 +15982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fa42581-8d08-4131-96f9-4e200706e685")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 305.816 48.768 90)
 			(effects
 				(font
@@ -15971,7 +16034,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -16004,7 +16067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 265.43 0)
 			(effects
 				(font
@@ -16056,7 +16119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c79c76-bc0c-4a0e-b870-c2defa71d333")
-		(property "Reference" "C23"
+		(property "Reference" "C20"
 			(at 360.68 69.8499 0)
 			(effects
 				(font
@@ -16110,7 +16173,130 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C23")
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRLML6402TRPBF:IRLML6402TRPBF")
+		(at 207.01 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "183b5930-aae7-4619-9508-604a82885d61")
+		(property "Reference" "Q1"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IRLML6402TRPBF:SOT95P237X112-3N"
+			(at 190.5 -28.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+			(at 190.5 -128.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFT P-Ch -3.7A 65mOhm 8nC Log Lvl"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 190.5 -328.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML6402TRPBF"
+			(at 190.5 -428.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRLML6402TRPBF?qs=9%252BKlkBgLFf0HuZuONx2Ewg%3D%3D"
+			(at 190.5 -528.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 190.5 -628.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML6402TRPBF"
+			(at 190.5 -728.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a062b779-490c-4959-8b5b-68d0acccd464")
+		)
+		(pin "3"
+			(uuid "290f870c-f7ee-4bf8-b472-1e19ebd104ee")
+		)
+		(pin "1"
+			(uuid "bcaebe30-5d9a-48f7-8780-d780fee39ebb")
+		)
+		(instances
+			(project ""
+				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -16126,7 +16312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc7fe46-8769-4f73-b9a7-a48e7c8fdcc4")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 643.89 68.58 0)
 			(effects
 				(font
@@ -16177,7 +16363,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -16193,7 +16379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c8e162d-33a7-463e-b948-95828b66b6e3")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 554.99 238.76 0)
 			(effects
 				(font
@@ -16209,7 +16395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
 			(at 551.18 254 0)
 			(effects
 				(font
@@ -16260,7 +16446,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -16276,7 +16462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c323ee-6a55-418c-b72b-8e1d26adc29d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR060"
 			(at 539.75 241.3 0)
 			(effects
 				(font
@@ -16326,7 +16512,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR048")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -16415,7 +16601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V"
+		(property "Value" "SZMM3Z10VST1G"
 			(at 217.17 68.5799 90)
 			(effects
 				(font
@@ -16424,7 +16610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -16475,7 +16661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2527be5b-f04f-492c-9c19-8b018ed3e5dc")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 711.2 70.485 0)
 			(effects
 				(font
@@ -16525,7 +16711,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -16541,7 +16727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27bf90e4-aecc-4260-9d54-c4bac7abc966")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR045"
 			(at 388.62 271.78 0)
 			(effects
 				(font
@@ -16591,7 +16777,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR036")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -16607,7 +16793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28a6f5d3-f011-45dd-ba20-accdfbd6096a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 96.52 212.09 0)
 			(effects
 				(font
@@ -16657,7 +16843,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16673,7 +16859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28de3595-fd47-4532-8a29-10699e587596")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR051"
 			(at 436.88 86.36 0)
 			(effects
 				(font
@@ -16723,7 +16909,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR044")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16739,7 +16925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29fc9aea-d2d6-42bd-a929-592d7220ddee")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 308.61 59.69 0)
 			(effects
 				(font
@@ -16789,7 +16975,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16804,7 +16990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa82a42-ee85-4926-8ebe-5ebdf98343f1")
-		(property "Reference" "C30"
+		(property "Reference" "C34"
 			(at 599.44 60.9662 0)
 			(effects
 				(font
@@ -16858,7 +17044,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C30")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -16945,7 +17131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe8797f-e663-4050-8743-fce4623b2134")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 462.28 54.5398 90)
 			(effects
 				(font
@@ -17006,7 +17192,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17022,7 +17208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38098cc3-bc1f-4a1b-b097-e3dbf09a3d16")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 496.57 172.72 0)
 			(effects
 				(font
@@ -17138,7 +17324,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "IC1")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -17248,7 +17434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 82.55 344.17 0)
 			(effects
 				(font
@@ -17306,7 +17492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9ab1d5-65ba-4761-a5c1-189f562289ef")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 189.23 256.54 0)
 			(effects
 				(font
@@ -17356,7 +17542,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17372,7 +17558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ecac0e7-bafc-436b-aa62-3f8c0ca993e1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 643.89 77.47 0)
 			(effects
 				(font
@@ -17422,7 +17608,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -17430,7 +17616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 411.48 53.34 0)
+		(at 417.83 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17438,8 +17624,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "424b385a-f9bc-4ef5-8b8f-d5ccd1603dec")
-		(property "Reference" "#PWR050"
-			(at 411.48 59.69 0)
+		(property "Reference" "#PWR048"
+			(at 417.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,7 +17634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 411.48 58.42 0)
+			(at 417.83 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17456,7 +17642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 411.48 53.34 0)
+			(at 417.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17465,7 +17651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 53.34 0)
+			(at 417.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,7 +17660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 411.48 53.34 0)
+			(at 417.83 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17488,7 +17674,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17504,7 +17690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43586ceb-b5b4-4475-9ea7-832a10fbbe8c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR037"
 			(at 345.44 93.98 0)
 			(effects
 				(font
@@ -17554,77 +17740,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 422.91 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44a11346-6914-4dcc-8cf7-12ba9e3a6c04")
-		(property "Reference" "C29"
-			(at 426.72 47.3709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150uF"
-			(at 426.72 49.9109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 423.8752 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 422.91 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 422.91 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6e5e2ef-92c9-4cf2-866a-99c74fbde874")
-		)
-		(pin "2"
-			(uuid "27e1009e-962e-4265-b195-8dbb2c91b9dc")
-		)
-		(instances
-			(project ""
-				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C29")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17640,7 +17756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455616e5-f738-4da1-ad34-1a9778ddf818")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 335.28 53.34 0)
 			(effects
 				(font
@@ -17691,7 +17807,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17771,7 +17887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f3e63c-3c94-4811-864e-a101af816d67")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 87.63 345.44 0)
 			(effects
 				(font
@@ -17821,7 +17937,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17835,7 +17951,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47d7b63a-371b-4a9f-82e7-f84ee8b10729")
 		(property "Reference" "Q3"
 			(at 402.59 60.96 90)
@@ -17911,7 +18026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48cb69f5-27cf-4a71-8b2c-60834bd87e5d")
-		(property "Reference" "J17"
+		(property "Reference" "J15"
 			(at 656.59 115.5699 0)
 			(effects
 				(font
@@ -17971,7 +18086,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J17")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -17986,7 +18101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b9ac749-7a09-40ec-b980-49776e02643f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 161.29 87.63 0)
 			(effects
 				(font
@@ -18037,7 +18152,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18135,7 +18250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Pulse_PA4320"
 			(at 398.78 45.72 0)
 			(effects
 				(font
@@ -18186,7 +18301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e3538cd-fd4c-4a2c-bb46-ca9033ee377b")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 101.6 336.55 90)
 			(effects
 				(font
@@ -18238,7 +18353,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18254,7 +18369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f526643-1967-4b03-937f-1fac9babaa07")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR014"
 			(at 104.14 354.33 0)
 			(effects
 				(font
@@ -18304,7 +18419,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR01")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18319,7 +18434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50dc397e-e57e-4d46-8cb7-0e9169243f7f")
-		(property "Reference" "C31"
+		(property "Reference" "C35"
 			(at 600.71 92.7162 0)
 			(effects
 				(font
@@ -18373,7 +18488,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C31")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -18407,7 +18522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 317.5 0)
 			(effects
 				(font
@@ -18458,7 +18573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "544c33a3-885a-47c5-a546-b8b838c6048d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 87.63 292.1 0)
 			(effects
 				(font
@@ -18509,7 +18624,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18525,7 +18640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a5ecc5-ff6d-41c8-b1fc-7588c77837e4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR058"
 			(at 521.97 261.62 0)
 			(effects
 				(font
@@ -18576,7 +18691,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR047")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18806,7 +18921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588eeac4-0d0b-4f84-b2a7-edb790fe0378")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR049"
 			(at 417.83 87.63 0)
 			(effects
 				(font
@@ -18856,7 +18971,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR074")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18872,7 +18987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "589061dd-a966-4e87-a8d4-2ac5c58adf43")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 298.45 48.2599 0)
 			(effects
 				(font
@@ -18926,7 +19041,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18942,7 +19057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5919ad26-b8ce-492b-b366-7aadc90ade7f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 340.36 93.98 0)
 			(effects
 				(font
@@ -18992,7 +19107,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19008,7 +19123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8ae72f-0826-462b-9719-a42b831ff71d")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 643.89 110.49 0)
 			(effects
 				(font
@@ -19058,7 +19173,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -19092,7 +19207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm_Wuerth-430476085716"
 			(at 54.61 288.29 0)
 			(effects
 				(font
@@ -19279,7 +19394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc2cd2f-d2af-4d20-b053-5fcf39c72ebd")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR041"
 			(at 369.57 273.05 0)
 			(effects
 				(font
@@ -19329,7 +19444,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR033")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19345,7 +19460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61df2cf7-8c9a-4ab6-91e8-52deaef3c149")
-		(property "Reference" "C25"
+		(property "Reference" "C33"
 			(at 528.32 184.1562 0)
 			(effects
 				(font
@@ -19399,7 +19514,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C25")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -19415,7 +19530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62067ba0-80f0-4db6-a8aa-64266e38d983")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR076"
 			(at 707.39 97.79 0)
 			(effects
 				(font
@@ -19465,7 +19580,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR065")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -19481,7 +19596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f069fc-fd41-449f-8290-13ca8f46174f")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 391.16 256.5462 0)
 			(effects
 				(font
@@ -19535,7 +19650,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -19551,7 +19666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a7e26ef-1902-496d-af9a-4d2f2e421288")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR046"
 			(at 407.67 86.36 0)
 			(effects
 				(font
@@ -19601,7 +19716,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR049")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -19617,7 +19732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1c2c55-297d-4cdb-a05e-3aae98f3f6c7")
-		(property "Reference" "C19"
+		(property "Reference" "C23"
 			(at 371.9688 256.5462 0)
 			(effects
 				(font
@@ -19671,7 +19786,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C19")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -19687,7 +19802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f49d838-ffa5-4feb-ae34-aa1b42533c57")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -19737,7 +19852,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19753,7 +19868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7115eea1-b315-400c-b5a6-4f1a381fd272")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR027"
 			(at 204.47 260.35 0)
 			(effects
 				(font
@@ -19803,7 +19918,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR066")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -19818,7 +19933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7409e644-8928-485f-9d7b-a4cd259d6756")
-		(property "Reference" "R25"
+		(property "Reference" "R19"
 			(at 410.21 223.52 90)
 			(effects
 				(font
@@ -19834,7 +19949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 410.21 219.202 90)
 			(effects
 				(font
@@ -19870,7 +19985,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R25")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -19954,7 +20069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "749be9ca-6adc-476b-b4fd-f8acbaf37f3b")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 280.924 48.26 0)
 			(effects
 				(font
@@ -20008,7 +20123,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -20023,7 +20138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "778f5864-b848-4fc0-b69e-9b7fc92f67e0")
-		(property "Reference" "R17"
+		(property "Reference" "R22"
 			(at 415.29 69.85 90)
 			(effects
 				(font
@@ -20075,7 +20190,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R17")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -20091,7 +20206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77aa4ff6-b0c3-4434-9f44-4915db3ac318")
-		(property "Reference" "J15"
+		(property "Reference" "J13"
 			(at 656.59 52.0699 0)
 			(effects
 				(font
@@ -20151,7 +20266,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J15")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -20185,7 +20300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 317.5 0)
 			(effects
 				(font
@@ -20237,7 +20352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c2787d9-edfd-4f7c-8cd0-b1e5466fbb4b")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 331.47 82.5499 0)
 			(effects
 				(font
@@ -20291,7 +20406,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -20307,7 +20422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dcc8939-895f-4ab5-ba27-5159c152c735")
-		(property "Reference" "J10"
+		(property "Reference" "J12"
 			(at 619.76 87.6299 0)
 			(effects
 				(font
@@ -20367,7 +20482,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -20375,7 +20490,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 521.97 212.09 0)
+		(at 521.97 212.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20383,22 +20498,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6ba5aa-905c-4907-ba21-8cbf0f36a983")
-		(property "Reference" "C26"
-			(at 524.51 210.8262 0)
+		(property "Reference" "C31"
+			(at 524.51 210.8135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
-			(at 524.51 213.3662 0)
+			(at 524.51 213.3535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -20437,7 +20552,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C26")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -20655,7 +20770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd23119-97e3-4a99-aa1a-4bea9d5a3f74")
-		(property "Reference" "J16"
+		(property "Reference" "J14"
 			(at 656.59 82.5499 0)
 			(effects
 				(font
@@ -20715,7 +20830,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J16")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -20731,7 +20846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80fd2108-86cf-4430-a5de-34500bd1be66")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR038"
 			(at 360.68 250.19 0)
 			(effects
 				(font
@@ -20782,7 +20897,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR031")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20797,7 +20912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82a7108d-02b1-4d2a-9fc5-ec3762ebad3b")
-		(property "Reference" "R22"
+		(property "Reference" "R9"
 			(at 166.37 284.48 90)
 			(effects
 				(font
@@ -20849,7 +20964,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -20857,15 +20972,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 81.28 0)
+		(at 208.28 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "82ad7a40-5424-48bf-937d-d93ec4d07d49")
-		(property "Reference" "#PWR028"
-			(at 208.28 87.63 0)
+		(property "Reference" "#PWR029"
+			(at 208.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +20989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 85.09 0)
+			(at 208.28 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20883,7 +20998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 81.28 0)
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20892,7 +21007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 81.28 0)
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20901,7 +21016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 81.28 0)
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20915,7 +21030,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -20931,7 +21046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82df56d6-f395-4e6b-af4a-219961340b36")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR044"
 			(at 382.27 247.65 0)
 			(effects
 				(font
@@ -20982,77 +21097,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 360.68 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83057eb3-1582-401e-8c21-11bffcc02d4a")
-		(property "Reference" "C24"
-			(at 364.49 47.3709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150uF"
-			(at 364.49 49.9109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.6452 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 360.68 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8189af98-f35c-45fc-9e1f-d4b01d2b3155")
-		)
-		(pin "2"
-			(uuid "a98f2d16-4a04-4bc0-b8c5-5d87cfe3db5b")
-		)
-		(instances
-			(project "OZE_PowerBank"
-				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C24")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -21085,7 +21130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 265.43 0)
 			(effects
 				(font
@@ -21137,7 +21182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bcc3c9-7e6e-4b22-897d-be3c7736c842")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 193.04 317.5 0)
 			(effects
 				(font
@@ -21187,7 +21232,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -21203,7 +21248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89f71380-c99d-46c5-ae73-42c0649fa9fa")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 565.15 199.39 0)
 			(effects
 				(font
@@ -21219,7 +21264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_TE_292303-7_Horizontal"
 			(at 561.34 213.36 0)
 			(effects
 				(font
@@ -21264,7 +21309,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -21281,7 +21326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a0bbfba-299b-47b9-a315-466f9f385109")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 95.25 266.6999 0)
 			(effects
 				(font
@@ -21335,7 +21380,7 @@
 		(instances
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21366,7 +21411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LFXTAL071744Reel:LFXTAL071744Reel"
 			(at 99.06 312.42 0)
 			(effects
 				(font
@@ -21492,7 +21537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ebb4812-8ad8-4325-80dc-fcde75a1357a")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 336.55 55.8799 0)
 			(effects
 				(font
@@ -21546,7 +21591,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -21577,7 +21622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 83.82 374.65 0)
 			(effects
 				(font
@@ -21635,7 +21680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a4ee9c-c0c4-4705-9b74-044b983b7965")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 643.89 99.06 0)
 			(effects
 				(font
@@ -21686,7 +21731,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -21702,7 +21747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93cb3bb9-bd1c-4166-9c64-79263264d42d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 189.23 275.59 0)
 			(effects
 				(font
@@ -21753,7 +21798,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -21768,7 +21813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "951ea53a-5760-4a71-86ce-e17f1e42b5b3")
-		(property "Reference" "C33"
+		(property "Reference" "C25"
 			(at 384.81 236.2262 0)
 			(effects
 				(font
@@ -21822,7 +21867,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C33")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -21912,7 +21957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a76504-bf30-480e-b573-bee2cb75b19e")
-		(property "Reference" "R15"
+		(property "Reference" "R24"
 			(at 472.44 57.1499 0)
 			(effects
 				(font
@@ -21966,7 +22011,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R15")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -21982,7 +22027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96aa6434-1243-4264-900c-836e99d66be9")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 270.51 48.2599 0)
 			(effects
 				(font
@@ -22036,7 +22081,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -22052,7 +22097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973cc51d-f604-486c-b8b1-89f3333657ec")
-		(property "Reference" "C20"
+		(property "Reference" "C24"
 			(at 381.0412 256.5462 0)
 			(effects
 				(font
@@ -22106,7 +22151,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -22122,7 +22167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f090ab-a087-41e1-9c3c-a08451eecbf8")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 596.9 55.88 0)
 			(effects
 				(font
@@ -22172,7 +22217,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -22256,7 +22301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9859dfd4-0cb9-45d9-bb2e-7bfdb36cc76e")
-		(property "Reference" "C34"
+		(property "Reference" "C27"
 			(at 392.43 236.2262 0)
 			(effects
 				(font
@@ -22274,7 +22319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 389.89 237.49 0)
 			(effects
 				(font
@@ -22310,7 +22355,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C34")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -22318,7 +22363,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 53.34 0)
+		(at 358.14 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22326,8 +22371,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99983a0a-3a06-4b05-9fad-dc8c3e1c65ac")
-		(property "Reference" "#PWR043"
-			(at 360.68 59.69 0)
+		(property "Reference" "#PWR039"
+			(at 358.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22336,7 +22381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.68 58.42 0)
+			(at 358.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,7 +22389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 53.34 0)
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22353,7 +22398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 53.34 0)
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22362,7 +22407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 53.34 0)
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22376,7 +22421,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -22392,7 +22437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ac1ad3a-1198-4cd4-b838-92903c317f65")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 643.89 46.99 0)
 			(effects
 				(font
@@ -22442,7 +22487,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -22524,7 +22569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce32566-e77b-4a6c-91be-92cd8c2bbcde")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR043"
 			(at 382.27 231.14 0)
 			(effects
 				(font
@@ -22574,7 +22619,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR075")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -22589,7 +22634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d9df50d-9d3d-42b1-a01c-1076a3589fbd")
-		(property "Reference" "C32"
+		(property "Reference" "C30"
 			(at 439.42 73.6662 0)
 			(effects
 				(font
@@ -22607,7 +22652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 436.88 74.93 0)
 			(effects
 				(font
@@ -22643,7 +22688,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C32")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -22659,7 +22704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc3f036-a46f-4e30-9abd-6250b81e1fd1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 92.71 266.7 0)
 			(effects
 				(font
@@ -22709,7 +22754,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -22725,7 +22770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e53b3e9-be4a-4b80-a06c-efd33c3a6c38")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 266.7 60.96 0)
 			(effects
 				(font
@@ -22775,7 +22820,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -22783,7 +22828,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 77.47 0)
+		(at 208.28 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22791,8 +22836,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2460e43-d675-4df4-a9ba-09678fd58ca2")
-		(property "Reference" "R7"
-			(at 210.82 76.1999 0)
+		(property "Reference" "R12"
+			(at 210.82 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22801,7 +22846,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.82 78.7399 0)
+			(at 210.82 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22810,7 +22855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 206.502 77.47 90)
+			(at 206.502 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22819,7 +22864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 77.47 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22828,7 +22873,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 208.28 77.47 0)
+			(at 208.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22843,9 +22888,9 @@
 			(uuid "cc0b1478-8e82-4b5e-9a6b-e2eaece0879d")
 		)
 		(instances
-			(project ""
+			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -22921,6 +22966,127 @@
 		)
 	)
 	(symbol
+		(lib_id "865060657011:865060657011")
+		(at 411.48 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a96e60e9-eeb7-41bd-8db9-f62c6f17cc6e")
+		(property "Reference" "C28"
+			(at 404.876 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "865060657011"
+			(at 399.288 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "865060657011:CAPAE1030X1050N"
+			(at 315.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/865060657011.pdf"
+			(at 215.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik 150uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLL Series 5000h 10.5 (Dia.) x 9.85mm"
+			(at 411.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.5"
+			(at 15.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-865060657011"
+			(at -84.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865060657011?qs=0KOYDY2FL2%252B77rsuEWbKMQ%3D%3D"
+			(at -184.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at -284.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "865060657011"
+			(at -384.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09c8565b-910a-4cb5-8651-b6eb9d8f6214")
+		)
+		(pin "2"
+			(uuid "97a1d853-c23d-4a0d-b720-e5f11549d6fe")
+		)
+		(instances
+			(project "OZE_PowerBank"
+				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 685.8 88.9 0)
 		(unit 1)
@@ -22930,7 +23096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa72c60b-1628-4810-9fad-f4a4d97134e4")
-		(property "Reference" "J11"
+		(property "Reference" "J16"
 			(at 686.435 83.82 0)
 			(effects
 				(font
@@ -22982,73 +23148,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 422.91 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb53f90-a757-4051-9ee9-68d109649d5b")
-		(property "Reference" "#PWR051"
-			(at 422.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 422.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 422.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 422.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4198653-85b0-4076-a173-669f7db6fa15")
-		)
-		(instances
-			(project "OZE_PowerBank"
-				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR051")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -23064,7 +23164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ade01e4c-2cba-4ba6-9e4e-b096347fd9d4")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR075"
 			(at 707.39 82.55 0)
 			(effects
 				(font
@@ -23114,7 +23214,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR064")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -23198,7 +23298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b43b5f26-0e50-4f55-9fee-8dec9483de6c")
-		(property "Reference" "R24"
+		(property "Reference" "R11"
 			(at 166.37 289.56 90)
 			(effects
 				(font
@@ -23250,7 +23350,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R24")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -23266,7 +23366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4950fff-f204-4a03-af42-b727c891e58a")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR028"
 			(at 204.47 281.94 0)
 			(effects
 				(font
@@ -23317,7 +23417,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR067")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -23333,7 +23433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55f31a2-5a72-4972-97d2-6e2aa176868d")
-		(property "Reference" "R12"
+		(property "Reference" "R17"
 			(at 367.03 66.04 90)
 			(effects
 				(font
@@ -23385,7 +23485,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -23400,7 +23500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b57f7b2d-de28-4fac-bc5b-f4336ed1e95c")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 191.77 264.1662 0)
 			(effects
 				(font
@@ -23454,7 +23554,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -23533,7 +23633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b649b1eb-862c-4734-8453-75a9dd8da98c")
-		(property "Reference" "J12"
+		(property "Reference" "J17"
 			(at 689.102 61.214 0)
 			(effects
 				(font
@@ -23549,7 +23649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
 			(at 687.07 67.31 0)
 			(effects
 				(font
@@ -23585,7 +23685,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J12")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -23601,7 +23701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8af9b98-ec36-416b-b804-4d6fe567cced")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 100.33 368.2999 0)
 			(effects
 				(font
@@ -23655,7 +23755,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -23671,7 +23771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "badbb8bc-f43b-4baf-b79e-7c425deee505")
-		(property "Reference" "J13"
+		(property "Reference" "J8"
 			(at 303.53 349.2499 0)
 			(effects
 				(font
@@ -23749,7 +23849,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J13")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -23765,7 +23865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb18a4a7-e170-41e0-be17-1b0ce5e1ca60")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 193.04 334.01 0)
 			(effects
 				(font
@@ -23815,7 +23915,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23831,7 +23931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb51d737-1c0f-4167-9188-f38e2d1035a3")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 643.89 132.08 0)
 			(effects
 				(font
@@ -23882,7 +23982,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -24038,7 +24138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd49d254-d79d-4408-abc8-73efdfddbec9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 328.93 93.98 0)
 			(effects
 				(font
@@ -24088,7 +24188,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -24161,15 +24261,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 411.48 49.53 0)
+		(at 417.83 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bec70d13-ec19-4fce-8bfd-65916ff276e3")
-		(property "Reference" "C28"
-			(at 415.29 48.2599 0)
+		(property "Reference" "C29"
+			(at 421.64 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24178,7 +24278,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 415.29 50.292 0)
+			(at 421.64 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24187,7 +24287,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 412.4452 53.34 0)
+			(at 418.7952 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24196,7 +24296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 411.48 49.53 0)
+			(at 417.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24205,7 +24305,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 411.48 49.53 0)
+			(at 417.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24222,7 +24322,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -24238,7 +24338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0610e56-2bce-40a3-8abb-9b10f1a5d66b")
-		(property "Reference" "C18"
+		(property "Reference" "C22"
 			(at 363.22 256.5462 0)
 			(effects
 				(font
@@ -24292,7 +24392,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C18")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -24384,7 +24484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17392f1-de66-4371-ab09-58c5c89e382c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 609.6 102.87 0)
 			(effects
 				(font
@@ -24434,7 +24534,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -24450,7 +24550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3e5d210-ed03-426e-aae3-763ff46f7c89")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 302.26 320.0399 0)
 			(effects
 				(font
@@ -24528,7 +24628,7 @@
 		(instances
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -24543,7 +24643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4c334b3-8036-4834-8a04-33b8a9caac0c")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 548.64 229.8699 90)
 			(effects
 				(font
@@ -24597,7 +24697,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -24613,7 +24713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86ae0e7-cfc4-4dfa-bf7c-5f8698461bae")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR061"
 			(at 558.8 280.67 0)
 			(effects
 				(font
@@ -24663,7 +24763,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR053")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -24679,7 +24779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb57f38e-70ea-492d-9c47-802f682dec1b")
-		(property "Reference" "C27"
+		(property "Reference" "C32"
 			(at 524.51 250.1962 0)
 			(effects
 				(font
@@ -24733,7 +24833,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "C27")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -24749,7 +24849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc425e31-e0e9-41cf-af80-bef0d57c7a00")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 332.74 67.31 0)
 			(effects
 				(font
@@ -24799,7 +24899,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -24815,7 +24915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf099e30-bf7f-432f-86b2-a1f6609cf31c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 85.09 331.47 0)
 			(effects
 				(font
@@ -24865,7 +24965,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -24881,7 +24981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf24bb9c-bf14-441d-9e7e-a43f98bcc5d5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 88.9 375.92 0)
 			(effects
 				(font
@@ -24931,7 +25031,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -24947,7 +25047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf39c728-983f-4037-be7e-4cc8c81d0679")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 80.01 308.61 0)
 			(effects
 				(font
@@ -24997,7 +25097,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -25010,7 +25110,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cf96541a-fc48-4a60-ae81-4de0b7997a69")
 		(property "Reference" "U3"
@@ -25112,7 +25212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d01c61ee-c57a-4c84-bbc4-42583c244b8b")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 618.49 55.8799 0)
 			(effects
 				(font
@@ -25172,7 +25272,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -25187,7 +25287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1cc28bf-66b7-48fd-bbd7-22e403602924")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 538.48 228.5999 90)
 			(effects
 				(font
@@ -25241,7 +25341,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -25257,7 +25357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b49c8a-6ba5-46fb-9b08-b3b52448e638")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR059"
 			(at 525.78 195.58 0)
 			(effects
 				(font
@@ -25308,7 +25408,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR045")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -25323,7 +25423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2da9d8a-7c0d-488f-a1d5-59ef18735969")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 97.79 363.22 0)
 			(effects
 				(font
@@ -25373,7 +25473,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -25389,7 +25489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4095d92-1e86-4d99-9feb-d749ac87f768")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 378.46 273.05 0)
 			(effects
 				(font
@@ -25439,7 +25539,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -25743,7 +25843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d662bf46-945a-4711-8444-551d67d7bea3")
-		(property "Reference" "R20"
+		(property "Reference" "R7"
 			(at 166.37 279.4 90)
 			(effects
 				(font
@@ -25795,7 +25895,129 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R20")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "865060657011:865060657011")
+		(at 358.14 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d0d07a-a744-420b-940f-69704f023ec7")
+		(property "Reference" "C21"
+			(at 361.95 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "865060657011"
+			(at 361.95 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "865060657011:CAPAE1030X1050N"
+			(at 261.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/865060657011.pdf"
+			(at 161.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik 150uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ASLL Series 5000h 10.5 (Dia.) x 9.85mm"
+			(at 358.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.5"
+			(at -38.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-865060657011"
+			(at -138.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/865060657011?qs=0KOYDY2FL2%252B77rsuEWbKMQ%3D%3D"
+			(at -238.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at -338.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "865060657011"
+			(at -438.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86101cd-de16-4348-85cd-37877750d688")
+		)
+		(pin "2"
+			(uuid "53ab9cfa-6f5b-4782-b7ed-c746016d1762")
+		)
+		(instances
+			(project ""
+				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -25811,7 +26033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac0c256-4536-4d13-b3ac-cbf039d78547")
-		(property "Reference" "R13"
+		(property "Reference" "R18"
 			(at 367.03 76.2 90)
 			(effects
 				(font
@@ -25863,7 +26085,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R13")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -25878,7 +26100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db331064-8d54-44d7-85d7-e942cbd66611")
-		(property "Reference" "R21"
+		(property "Reference" "R8"
 			(at 166.37 281.94 90)
 			(effects
 				(font
@@ -25930,7 +26152,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -26013,7 +26235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcee2a26-6a14-4aa6-8cb8-fbcac6ac8438")
-		(property "Reference" "R23"
+		(property "Reference" "R10"
 			(at 166.37 287.02 90)
 			(effects
 				(font
@@ -26065,7 +26287,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R23")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -26081,7 +26303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7b9ac8-fd7f-4e7e-aa07-c69be6fcab74")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 87.63 355.6 0)
 			(effects
 				(font
@@ -26132,7 +26354,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -26166,7 +26388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 161.29 72.39 0)
 			(effects
 				(font
@@ -26218,7 +26440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "debff48f-0d38-431b-aa41-3880d9b35dea")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR050"
 			(at 421.64 238.76 0)
 			(effects
 				(font
@@ -26268,7 +26490,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR057")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -26347,7 +26569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e03afa5d-75b6-4c06-ba39-8f9c762f6afb")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 410.21 231.14 90)
 			(effects
 				(font
@@ -26363,7 +26585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 410.21 226.822 90)
 			(effects
 				(font
@@ -26399,7 +26621,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -26414,7 +26636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0cd5ed3-c7b2-438d-89be-598bc7dd2f41")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -26465,7 +26687,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -26498,7 +26720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.3 265.43 0)
 			(effects
 				(font
@@ -26637,7 +26859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.89 265.43 0)
 			(effects
 				(font
@@ -26689,7 +26911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e793c17c-16c8-44b4-a93c-f7778a56567d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 99.06 386.08 0)
 			(effects
 				(font
@@ -26740,7 +26962,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -26755,7 +26977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e80daa11-d7e0-44a7-86ca-916a04d0e5a5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR052"
 			(at 441.96 60.96 0)
 			(effects
 				(font
@@ -26806,7 +27028,7 @@
 		(instances
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR054")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -26892,7 +27114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c971e8-9113-4c2e-989b-d862a92966bc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 69.85 304.8 0)
 			(effects
 				(font
@@ -26942,7 +27164,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -26957,7 +27179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edc7f01b-e4f8-4def-bbe2-713fef6c6529")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 327.914 65.532 90)
 			(effects
 				(font
@@ -26973,7 +27195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.66 71.628 90)
 			(effects
 				(font
@@ -27009,7 +27231,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -27025,7 +27247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef494bd7-fd8f-4d0d-8192-9e110e2fc728")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 464.82 60.96 0)
 			(effects
 				(font
@@ -27076,105 +27298,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 208.28 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f12fb990-717e-4f36-88c6-c73375851b1b")
-		(property "Reference" "Q1"
-			(at 208.28 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 208.28 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 220.98 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 225.425 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 227.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b835cec-019e-437a-ad76-6544d3dcffa2")
-		)
-		(pin "3"
-			(uuid "7062099f-168a-425e-b8c2-4ec4fb5190db")
-		)
-		(pin "1"
-			(uuid "17d067d9-1721-4d9a-a767-d462cd038baf")
-		)
-		(instances
-			(project "OZE_PowerBank"
-				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "Q1")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -27190,7 +27314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d2604e-d692-49f0-9d18-a93ffd8ea2e0")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 598.17 102.87 0)
 			(effects
 				(font
@@ -27240,7 +27364,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -27256,7 +27380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3d2b01c-62c8-44f5-bf50-865f4d875f44")
-		(property "Reference" "IC3"
+		(property "Reference" "IC1"
 			(at 437.7533 290.83 0)
 			(effects
 				(font
@@ -27419,7 +27543,7 @@
 		(instances
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "IC3")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -27435,7 +27559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3fb9ef9-a7a2-41b2-b58a-b85bfff183ca")
-		(property "Reference" "R16"
+		(property "Reference" "R25"
 			(at 478.79 55.88 90)
 			(effects
 				(font
@@ -27487,7 +27611,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R16")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -27570,7 +27694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4d51424-d963-4cfe-9add-9900a6ecfde8")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 608.33 71.12 0)
 			(effects
 				(font
@@ -27620,7 +27744,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -27636,7 +27760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e6ff18-85cc-47e3-adf0-3f14c2fecacc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 360.68 271.78 0)
 			(effects
 				(font
@@ -27686,7 +27810,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -27719,7 +27843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 440.69 306.578 90)
 			(effects
 				(font
@@ -27771,7 +27895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f724a06b-8d77-4ed0-a873-039559d451f3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR057"
 			(at 521.97 222.25 0)
 			(effects
 				(font
@@ -27822,7 +27946,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR046")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -27838,7 +27962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9deebb5-549f-4c46-9a9b-f82e26b968bf")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 96.52 189.23 0)
 			(effects
 				(font
@@ -27888,7 +28012,7 @@
 		(instances
 			(project ""
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -27904,7 +28028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb069caf-e496-4ca3-9e3c-013855cdc65a")
-		(property "Reference" "J14"
+		(property "Reference" "J6"
 			(at 217.17 265.4299 0)
 			(effects
 				(font
@@ -27922,7 +28046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 215.9 267.97 0)
 			(effects
 				(font
@@ -27964,7 +28088,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "J14")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -27996,7 +28120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 179.07 262.128 90)
 			(effects
 				(font
@@ -28048,7 +28172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc373ba9-a458-47b1-b28c-8103ac266f33")
-		(property "Reference" "R14"
+		(property "Reference" "R23"
 			(at 450.85 39.37 90)
 			(effects
 				(font
@@ -28100,7 +28224,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R14")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -28115,7 +28239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd698018-f7f8-431f-8cec-f43d42503cf8")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 412.75 251.46 90)
 			(effects
 				(font
@@ -28131,7 +28255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 417.068 251.46 90)
 			(effects
 				(font
@@ -28167,7 +28291,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -28249,7 +28373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffec8acd-902e-4e5f-9f07-2516b8670708")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR055"
 			(at 474.98 191.77 0)
 			(effects
 				(font
@@ -28300,7 +28424,7 @@
 		(instances
 			(project "OZE_PowerBank"
 				(path "/05ef670e-1266-4770-84e3-f6b3d153fd91"
-					(reference "#PWR042")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

@@ -6,4 +6,8 @@
   (lib (name "0ZAF0016FF28")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/0ZAF0016FF28")(options "")(descr ""))
   (lib (name "DCJ200-10-A-XX-K_REVA")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/DCJ200-10-A-XX-K_REVA")(options "")(descr ""))
   (lib (name "LIB_SLW-1276864-4A-D")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/LIB_SLW-1276864-4A-D/SLW-1276864-4A-D/KiCad")(options "")(descr ""))
+  (lib (name "IRLML6402TRPBF")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/IRLML6402TRPBF/IRLML6402TRPBF/KiCad")(options "")(descr ""))
+  (lib (name "865060657011")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/865060657011/865060657011/KiCad")(options "")(descr ""))
+  (lib (name "PA4320.154NLT")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/PA4320.154NLT/PA4320.154NLT/KiCad")(options "")(descr ""))
+  (lib (name "LFXTAL071744Reel")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/LFXTAL071744Reel/LFXTAL071744Reel/KiCad")(options "")(descr ""))
 )
