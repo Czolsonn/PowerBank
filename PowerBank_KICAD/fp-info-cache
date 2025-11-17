@@ -1,8 +1,15 @@
-26725408066368899
+26732460741551774
 0ZAF0016FF28
 FUSER_0ZAF0016FF28
 
 
+0
+2
+2
+865060657011
+CAPAE1030X1050N
+10.5*10.3
+Capacitor
 0
 2
 2
@@ -62684,6 +62691,13 @@ heatsink
 0
 0
 0
+IRLML6402TRPBF
+SOT95P237X112-3N
+Micro3 (SOT23)
+Transistor
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -70587,6 +70601,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LFXTAL071744Reel
+LFXTAL071744Reel
+LFXTAL071744Reel-2
+Crystal or Oscillator
+0
+4
+4
 LIB_SLW-1276864-4A-D
 SLW12768644AD
 SLW-1276864-4A-D-1
@@ -74738,6 +74759,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PA4320.154NLT
+PA4320154NLT
+PA4320.154NLT-2
+Inductor
+0
+2
+2
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13

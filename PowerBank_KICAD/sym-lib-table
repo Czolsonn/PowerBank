@@ -6,4 +6,7 @@
   (lib (name "0ZAF0016FF28")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/0ZAF0016FF28/0ZAF0016FF28.kicad_sym")(options "")(descr ""))
   (lib (name "DCJ200-10-A-XX-K_REVA")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/DCJ200-10-A-XX-K_REVA/DCJ200-10-A-XX-K_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "SLW-1276864-4A-D")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/LIB_SLW-1276864-4A-D/SLW-1276864-4A-D/KiCad/SLW-1276864-4A-D.kicad_sym")(options "")(descr ""))
+  (lib (name "IRLML6402TRPBF")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/IRLML6402TRPBF/IRLML6402TRPBF/KiCad/IRLML6402TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "865060657011")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/865060657011/865060657011/KiCad/865060657011.kicad_sym")(options "")(descr ""))
+  (lib (name "PA4320_154NLT")(type "KiCad")(uri "/home/sparta/Documents/kicad-libs/PA4320.154NLT/PA4320.154NLT/KiCad/PA4320_154NLT.kicad_sym")(options "")(descr ""))
 )
