@@ -18,3 +18,18 @@ BMS: Moduł BMS PCM PCB ładowania i ochrony ogniw Li-ion 2S 8,4V 5A - 18650 - h
 Do zrobienia:
 - Dołączenie na schemacie akumulatora wraz z BMS
 - Cześć masy odłączana poprzez tranzystor odpinanie Ładowania od układu na nóżce minusa baterii
+
+
+
+
+
+
+
+PCB -----
+Top (SIG) – sygnały + power
+
+In1 (GND PLANE) – pełna masa, 100% nieprzerwana
+
+In2 (POWER PLANE) – 3V3, 5V, VBAT, VIN, SW
+
+Bottom (SIG) – sygnały wolniejsze i pomocnicze
