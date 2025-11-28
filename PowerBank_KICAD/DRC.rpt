@@ -1,0 +1,133 @@
+** Drc report for OZE_PowerBank.kicad_pcb **
+** Created on 2025-11-28T13:24:05+0100 **
+
+** Found 35 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(153.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(153.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(154.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(154.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(156.4375 mm, 57.4500 mm): Track [GND] on F.Cu, length 1.1375 mm
+    @(154.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(154.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+    @(155.0000 mm, 58.4500 mm): Track [GND] on F.Cu, length 0.3000 mm
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+    @(153.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+    @(153.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+    @(154.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on F.Cu
+    @(154.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on B.Cu
+    @(153.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on B.Cu
+    @(153.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on B.Cu
+    @(154.9900 mm, 57.7500 mm): PTH pad 12 [<no net>] of U3
+[clearance]: Clearance violation (netclass 'POWER' clearance 0.1750 mm; actual 0.4500 mm)
+    Rule: netclass 'POWER'; error
+    @(154.4900 mm, 58.2500 mm): Pad 11 [GND] of U3 on B.Cu
+    @(154.9900 mm, 58.7500 mm): PTH pad 12 [<no net>] of U3
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3750 mm, 108.4250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3750 mm, 108.4250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3750 mm, 108.4250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.5750 mm, 108.4000 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.5750 mm, 108.4000 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.5750 mm, 108.4000 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3750 mm, 107.8250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3750 mm, 107.8250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3750 mm, 107.8250 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.5750 mm, 107.8500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.5750 mm, 107.8500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.5750 mm, 107.8500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3500 mm, 107.2500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3500 mm, 107.2500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.3500 mm, 107.2500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.6250 mm, 107.2500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.6250 mm, 107.2500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(199.6250 mm, 107.2500 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.4250 mm, 106.6750 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.4250 mm, 106.6750 mm): Via [GND] on F.Cu - B.Cu
+[annular_width]: Annular width (board setup constraints min annular width 0.2000 mm; actual 0.1500 mm)
+    Rule: board setup constraints; error
+    @(200.4250 mm, 106.6750 mm): Via [GND] on F.Cu - B.Cu
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 113.0375 mm): PTH pad 2 [/NRST] of SW1
+    @(145.9625 mm, 113.0375 mm): Track [/NRST] on F.Cu, length 3.4625 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **

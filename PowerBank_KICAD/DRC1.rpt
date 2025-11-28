@@ -1,0 +1,26 @@
+** Drc report for OZE_PowerBank.kicad_pcb **
+** Created on 2025-11-28T13:52:00+0100 **
+
+** Found 3 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(222.7580 mm, 25.0190 mm): Zone [GND] on F.Cu, B.Cu and 2 more, priority 0
+    @(154.9900 mm, 58.7500 mm): PTH pad 12 [GND] of U3
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(222.7580 mm, 25.0190 mm): Zone [GND] on F.Cu, B.Cu and 2 more, priority 0
+    @(153.9900 mm, 58.7500 mm): PTH pad 12 [GND] of U3
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(222.7580 mm, 25.0190 mm): Zone [GND] on F.Cu, B.Cu and 2 more, priority 0
+    @(153.9900 mm, 57.7500 mm): PTH pad 12 [GND] of U3
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 113.0375 mm): PTH pad 2 [/NRST] of SW1
+    @(145.9625 mm, 113.0375 mm): Track [/NRST] on F.Cu, length 3.4625 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
