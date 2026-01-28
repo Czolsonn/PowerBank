@@ -1,0 +1,21 @@
+14:48:08 **** Incremental Build of configuration Debug for project PowerBank ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PowerBank.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\polus\OneDrive\Pulpit\Projekty\PowerBank na energie odnawialną - Automatyka w źródłach energii odnawialnej\PowerBank\STM_C\PowerBank\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PowerBank.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PowerBank.elf
+ 
+arm-none-eabi-size  PowerBank.elf 
+arm-none-eabi-objdump -h -S PowerBank.elf  > "PowerBank.list"
+   text	   data	    bss	    dec	    hex	filename
+  32788	    472	   2320	  35580	   8afc	PowerBank.elf
+Finished building: default.size.stdout
+ 
+Finished building: PowerBank.list
+ 
+14:48:11 **** Incremental Build of configuration Debug for project PowerBank ****
+make -j8 all 
+arm-none-eabi-size  PowerBank.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32788	    472	   2320	  35580	   8afc	PowerBank.elf
+Finished building: default.size.stdout
+ 

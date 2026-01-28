@@ -1,0 +1,10 @@
+14:48:11 **** Incremental Build of configuration Debug for project PowerBank ****
+make -j8 all 
+arm-none-eabi-size  PowerBank.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32788	    472	   2320	  35580	   8afc	PowerBank.elf
+Finished building: default.size.stdout
+ 
+
+14:48:11 Build Finished. 0 errors, 0 warnings. (took 379ms)
+
