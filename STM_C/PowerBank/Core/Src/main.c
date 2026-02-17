@@ -55,8 +55,8 @@
 #define DMA_SAMPLES     10  // Ilość próbek na kanał
 
 // Współczynnik filtra dolnoprzepustowego (0.0 do 1.0).
-#define FILTER_ALPHA_V  0.2f  // Dla napięć (zazwyczaj stabilniejsze)
-#define FILTER_ALPHA_I  0.2f  // Dla prądu (wymaga mocniejszego tłumienia)
+#define FILTER_ALPHA_V  0.3f  // Dla napięć (zazwyczaj stabilniejsze)
+#define FILTER_ALPHA_I  0.3f  // Dla prądu (wymaga mocniejszego tłumienia)
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -612,7 +612,7 @@ void Control_Loop(void) {
                 current_state = STATE_CHARGING;
             }
             // Zabezpieczenie powrotu
-            if (sys.v_in <= sys.v_out) current_state = STATE_IDLE;
+            if (sys.v_in <= sys.v_out + MIN_V_IN_OFFSET) current_state = STATE_IDLE;
             break;
 
         case STATE_CHARGING:
@@ -661,13 +661,18 @@ void Control_Loop(void) {
             }
 
             // Sprawdzenie "Under Voltage Lockout" dla panelu
-            if (sys.v_in < sys.v_out + 0.5f) {
+            if (sys.v_in < sys.v_out + MIN_V_IN_OFFSET) {
                 current_state = STATE_IDLE;
+                break;
             }
-            break;
 
             // Sprawdzenie czy nie odłączono akumulatorów
             if (sys.v_out <= MIN_V_BAT_SAFE){
+            	current_state = STATE_IDLE;
+            	break;
+            }
+
+            if(sys.i_out < 0.01f){
             	current_state = STATE_IDLE;
             }
             break;
@@ -679,6 +684,7 @@ void Control_Loop(void) {
                 current_state = STATE_IDLE;
             }
             break;
+
     }
 
     // Zastosuj Duty Cycle z limitem Hard-Hardware
